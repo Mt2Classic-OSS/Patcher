@@ -1,0 +1,92 @@
+
+#ButtonLogo {
+	border: none;
+	background:url('resources/logo.png');
+}
+#ButtonStart {
+	border: none;
+	background:url('resources/start_button_idle.png');
+}
+#UiBG QLabel {
+	color: white;
+}
+#UiBG {
+	color: white;
+	border: none;
+	background:url('resources/ui_bg.png');	
+}
+#LanguagePicker {
+	color: white;
+	background-color: transparent;
+	border: 1px solid #333333;
+}
+#ButtonStart:hover {
+	background:url('resources/start_button_hover.png');
+}
+#ButtonStart:pressed {
+	background:url('resources/start_button_down.png');
+}
+#ButtonStart:disabled {
+	background:url('resources/start_button_off.png');
+}
+#BgOverlay {
+	background:url('resources/bg_overlay.png');
+}
+#MainWindow {
+	background:url('resources/bg_pattern.png');
+}
+#LinePatternTop, #LinePatternBottom {
+	background:url('resources/line_pattern.png');
+}
+QProgressBar {
+	border: 1px solid #240000;
+	padding: 3px;
+	color: #e6dcbb;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b1802f, stop: 1 #eac975);
+}
+QProgressBar::chunk { 
+	color: #e6dcbb;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #b11500, stop: 1 #340000);
+}
+
+
+#VersionLabel {
+	color: white;
+	text-align: center;
+	border: none;
+	font-size: 12pt;
+	background-color: transparent;
+}
+#ButtonRepair {
+	background-color: transparent;
+	border: none;
+	background:url('resources/repair_button_idle.png');
+	background-repeat: no-repeat;
+}
+#ButtonRepair:hover {
+	background-image:url('resources/repair_button_hover.png');
+}
+#ButtonRepair:pressed {
+	background-image:url('resources/repair_button_down.png');
+}
+#ButtonSettings {
+	background-color: transparent;
+	border: none;
+	background:url('resources/settings_button_idle.png');
+	background-repeat: no-repeat;
+}
+#ButtonSettings:hover {
+	background-image:url('resources/settings_button_hover.png');
+}
+#ButtonSettings:pressed {
+	background-image:url('resources/settings_button_down.png');
+}
+ #VersionLabel:hover {
+	text-decoration: underline;
+}
+#VersionLabel:pressed {
+	text-decoration: underline;
+}
+#VersionLabel {
+	text-align:left;
+}
