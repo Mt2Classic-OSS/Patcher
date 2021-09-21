@@ -1,6 +1,6 @@
 #!/usr/bin/python
 class Config:
-	currentVersion = 11
+	currentVersion = 12
 	gameBinArgs = "";
 	versionLink = "https://mt2classic.com"
 	maxNetworkRetries = 3
