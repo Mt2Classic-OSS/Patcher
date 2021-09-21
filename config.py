@@ -9,7 +9,7 @@ class Config:
 	gameBinName = "metin2client.exe"
 
 	patchFileUrls = (
-		"http://rest.s3for.me/classic-patch/patchlist",
+		"http://s3.tebi.io/classic-patch/patchlist",
 	);
 
 	tempPatchFilePath = "newpatch.exe"
